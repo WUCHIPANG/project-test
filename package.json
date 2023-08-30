@@ -1,0 +1,35 @@
+{
+  "name": "project-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/eslint-parser": "^7.22.11",
+    "chart.js": "^4.3.3",
+    "element-plus": "^2.3.9",
+    "flv.js": "^1.6.2",
+    "pinia": "^2.0.32",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue": "^3.2.47",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.1.6",
+    "vue3-google-login": "^2.0.20"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.1.4"
+  }
+}
